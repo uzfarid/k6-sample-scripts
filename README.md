@@ -17,7 +17,10 @@ Currently script has only 1 custom paramater that can be passed via command line
 
 ## How to run the script?
 
-Follow https://k6.io/docs/getting-started/installation/ this link to install k6 first. 
+1. Follow https://k6.io/docs/getting-started/installation/ this link to install k6 first. 
+2. Clone this repo
+3. Navigate to the repo folder via CMD
+4. 
 
 ```
 k6 run --vus 10 --duration 90s --out influxdb=http://[influxDB-Endpoint-here]:8086/myk6db -e ENDPOINT=1.2.3.4 k6-sample-script.js
@@ -32,3 +35,7 @@ k6 run --vus 10 --duration 90s --out influxdb=http://[influxDB-Endpoint-here]:80
 
 Please, follow this link:
 https://k6.io/docs/results-visualization/influxdb-+-grafana/
+
+## Sample reports
+
+The repository contains sample reports from Grafana, exported as PDF. https://grafana.com/grafana/dashboards/2587 sample dashboard was used as base template
