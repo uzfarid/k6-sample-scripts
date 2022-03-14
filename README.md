@@ -18,7 +18,9 @@ Currently script has only 1 custom paramater that can be passed via command line
 ## How to run the script?
 
 1. Follow https://k6.io/docs/getting-started/installation/ this link to install k6 first. 
-2. Clone this repo
+2. Clone this repo: 
+``` git clone https://github.com/uzfarid/k6-sample-scripts.git 
+```
 3. Navigate to the repo folder via CMD
 4. 
 
