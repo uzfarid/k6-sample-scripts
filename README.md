@@ -25,7 +25,7 @@ Currently script has only 1 custom paramater that can be passed via command line
  
 ```
 3. Navigate to the repo folder via CMD
-4. 
+4. Run the following command:
 
 ```
 k6 run --vus 10 --duration 90s --out influxdb=http://[influxDB-Endpoint-here]:8086/myk6db -e ENDPOINT=1.2.3.4 k6-sample-script.js
