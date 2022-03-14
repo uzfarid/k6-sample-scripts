@@ -35,7 +35,7 @@ k6 run --vus 10 --duration 90s --out influxdb=http://[influxDB-Endpoint-here]:80
 |----|----------------|------------------------------------------------------|
 | 1  | vus       | how many concurrent users?|
 |  2  |       duration         |     how long the test should run                                                 |
-|   3 |          --out influxdb      |      if you would like metrics visible in grafana, you this option, otherwise can be removed                                                |
+|   3 |          --out influxdb      |      if you would like metrics visible in grafana, use this option, otherwise can be removed                                                |
 ## How to setup InfluxDB and Grafana integration
 
 Please, follow this link:
